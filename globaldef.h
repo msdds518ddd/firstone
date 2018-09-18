@@ -1,0 +1,19 @@
+#ifndef __GLOBALDEF_H__
+#define __GLOBALDEF_H__
+
+//#define ENABLE_CUBESHADER
+
+#define PI					3.14159265f
+#define SCREEN_WIDTH		1920
+#define SCREEN_HEIGHT		720	
+#define SCREEN_XRATIO		(float)SCREEN_WIDTH/(float)SCREEN_HEIGHT
+#define SCREEN_YRATIO		(float)SCREEN_HEIGHT/(float)SCREEN_WIDTH
+#define CAMERA_INWIDTH		720
+#define CAMERA_INHEIGHT		480
+
+#define CONFIGFILE_NAME		"n331config"
+#define MAXRESOURCENUM		200
+#define MAXBRUSHNUM			50
+
+
+#endif	//__GLOBALDEF_H__
